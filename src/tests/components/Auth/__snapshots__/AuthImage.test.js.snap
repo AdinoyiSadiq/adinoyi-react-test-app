@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthImage render features view should render as expected 1`] = `
+<div
+  className="author-writing"
+>
+  <p
+    className="auth-header"
+  >
+    Authors Haven
+  </p>
+  <img
+    alt=""
+    src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541518106/author.jpg"
+  />
+  <p
+    className="auth-title"
+  >
+    A community of like minded authors
+  </p>
+</div>
+`;

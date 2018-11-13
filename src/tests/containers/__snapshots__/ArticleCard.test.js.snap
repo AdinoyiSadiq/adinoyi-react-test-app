@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Card UI render features component should render as expected 1`] = `
+<_default>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <MemoryRouter
+      initialEntries={
+        Array [
+          Object {
+            "key": "testkey",
+          },
+        ]
+      }
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "testkey",
+                "pathname": "/",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "testkey",
+              "pathname": "/",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <Connect(Card)>
+          <Card
+            getArticles={[Function]}
+          >
+            <div>
+              <Loading>
+                <div
+                  className="loading-icon"
+                >
+                  <img
+                    alt=""
+                    src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426069/Authors%20Haven/Spinner-1s.gif"
+                  />
+                </div>
+              </Loading>
+              <div
+                className="hero-moreArticles row"
+                onClick={[Function]}
+              >
+                <p>
+                  More Articles
+                </p>
+                <img
+                  alt=""
+                  src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426068/Authors%20Haven/icons8-expand-arrow-24.png"
+                />
+              </div>
+            </div>
+          </Card>
+        </Connect(Card)>
+      </Router>
+    </MemoryRouter>
+  </Provider>
+</_default>
+`;

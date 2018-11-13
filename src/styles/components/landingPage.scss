@@ -1,0 +1,270 @@
+$maingreen: #57B182;
+$faintblue: #F4F9FC;
+
+.hero-section{
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426081/Authors%20Haven/heroImage2.jpg");
+  height: 100vh;
+  width: 100vw;
+  color: #E5E5E5;
+  overflow: hidden;
+  @media only screen and (max-width: 900px) {
+    overflow: auto;
+  }
+  .hero-section-overlay{
+    background-color: rgba(0, 0, 0, 0.41);
+    background-size: cover;
+    height: 100vh;
+    h2{
+      width: 88%;
+      font-size: 45px;
+      margin: 10vh auto;
+      margin-bottom: 20px;
+      @media only screen and (max-width: 900px) {
+        text-align: center;
+        font-size: 35px;
+      }
+    }
+    .hero-section-description{
+      width: 88%;
+      margin: 50px auto;
+      margin-bottom: 20px;
+      line-height: 0.7;
+      @media only screen and (max-width: 900px) {
+        font-size: 24px;
+        text-align: center;
+        line-height: 1.7;
+      }
+    }
+    .hero-section-buttons{
+      width: 88%;
+      margin: 50px auto;
+      @media only screen and (max-width: 900px) {
+        display: flex;
+        justify-content: center;
+      }
+      button{
+        margin-right: 30px;
+        font-family: 'Antic', sans-serif;
+        padding: 11px;
+        width: 175px;
+        transition: all .55s ease;
+        &:hover{
+          transform: translateY(-6px);
+          box-shadow: 5px 14px 35px 0 rgba(0, 0, 0, 0.08);
+        }
+          @media only screen and (max-width: 900px) {
+          padding: 11px;
+          margin-right: 20px;
+          width: 150px;
+        }
+      }
+    }
+    .hero-section-greenbutton{
+      color: white;
+      background-color: $maingreen;
+      cursor: pointer;
+    }
+    .hero-section-whitebutton{
+      color: $maingreen;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+  .big-hero-card{
+    @media only screen and (max-width: 900px) {
+      display: none;
+    }
+    position: relative;
+    top: -65vh;
+    right: -60vw;
+    margin-right: -200px;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
+    width: 900px;
+    transform: rotate(-15.87deg);
+    text-align: right;
+    box-shadow: 5px 14px 35px 0 rgba(0, 0, 0, 0.19);
+    .hero-card-details{
+      padding: 10px;
+      margin-top: 60px;
+      margin-right: 60px;
+      h6{
+        color: #626D86;
+      }
+      p{
+        margin-top: 40px;
+        font-family: 'Antic', sans-serif;
+        font-size: 13px;
+        color: #626D86;
+      }
+      .hero-card-author{
+        margin-top: 40px;
+        img{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-top: 24px;
+          margin-left: 40px;
+        }
+        p{
+          font-family: 'Roboto', sans-serif;
+        }
+    }
+    }
+    .hero-card-image{
+      background-image: url('https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426070/Authors%20Haven/cardImage2.png');
+      background-size: cover;
+      width: 100%;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.hero-body-vector-white{
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);
+  margin-top: -40vh;
+  height: 40vh;
+  background-color: white;
+  @media only screen and (max-width: 900px) {
+      display: none;
+  }
+}
+
+.hero-body-vector-blue{
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);
+  margin-top: -40vh;
+  height: 40vh;
+  background-color: $faintblue;
+  @media only screen and (max-width: 900px) {
+      display: none;
+  }
+}
+
+.hero-body{
+  margin: -10vh 17vw;
+  margin-bottom: 250px;
+  height: 70vh;
+  width: 40vw;
+  text-align: right;
+  @media only screen and (max-width: 900px) {
+    width: 80vw;
+    height: 130vh;
+    text-align: center;
+    margin: 10vh auto;
+    margin-bottom: -10vh;
+  }
+  .hero-body-details{
+    margin: 0 auto;
+    .hero-body-title{
+      margin: 10vh 0;
+    }
+    p{
+      color: #626d86;
+      line-height: 1.46;
+      font-size: 18px;
+    }
+    hr{
+      margin: 50px 20px;
+      width: 39vw;
+      height: 0px;
+      border: solid 1px #e5e5e5;
+      @media only screen and (max-width: 900px) {
+        width: 68vw;
+      }
+    }
+    .hero-signup{
+      p{
+        font-size: 16px;
+        line-height: 1.5;
+        color: #8193f7;
+      }
+    }
+  }
+}
+
+.hero-body-title, .hero-lowerbody-title{
+  h2{
+    color: #57b182;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    @media only screen and (max-width: 900px) {
+      margin-right: 0px;
+    }
+  }
+  .hero-bookImage-wrapper{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  background-color: rgba(87, 177, 130, 0.3);
+  justify-content: center;
+    @media only screen and (max-width: 900px) {
+      margin: 0 auto;
+    }
+    img{
+      margin: auto;
+    }
+  }
+}
+
+.hero-lowerbody{
+  background-color: $faintblue;
+  // min-height: 155vh;
+  width: 100vw;
+  @media only screen and (max-width: 900px) {
+    width: 100vw;
+    // min-height: 375vh;
+    text-align: center;
+  }
+  .hero-lowerbody-details{
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    @media only screen and (max-width: 900px) {
+      width: 80vw;
+    }
+    .hero-lowerbody-title{
+      margin: auto;
+      h2{
+        padding: 40px;
+      }
+      .hero-bookImage-wrapper{
+        margin: 0 auto;
+        padding: 20px;
+      }
+    }
+    p{
+      line-height: 1.46;
+      color: #626d86;
+      font-size: 18px;
+    }
+  }
+
+  .hero-lowerbody-articles{
+    width: 95vw;
+    margin: 200px auto 0 auto;
+    .row{
+      .hero-article{
+      margin: 50px;
+        @media only screen and (max-width: 900px) {
+          margin: 17px;
+        }
+      }
+    }
+  }
+}
+
+.hero-body-background{
+  background-color: white;
+  @media only screen and (max-width: 900px) {
+    margin-top: -70px;
+  }
+}

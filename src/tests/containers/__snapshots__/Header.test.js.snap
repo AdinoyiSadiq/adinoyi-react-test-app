@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading render container should render as expected 1`] = `
+<_default>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <MemoryRouter
+      initialEntries={
+        Array [
+          Object {
+            "key": "testkey",
+          },
+        ]
+      }
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "testkey",
+                "pathname": "/",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "testkey",
+              "pathname": "/",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <Connect(Header)>
+          <Header
+            auth={null}
+            signout={[Function]}
+          >
+            <header>
+              <nav
+                className="navbar"
+              >
+                <Link
+                  className="navbar-title navbar-brand"
+                  replace={false}
+                  to="/"
+                >
+                  <a
+                    className="navbar-title navbar-brand"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <h3
+                      className="header-dark"
+                    >
+                      Authors Haven
+                    </h3>
+                  </a>
+                </Link>
+                <div
+                  className="navbar-main-wrapper"
+                >
+                  <button
+                    className="navbar-toggler"
+                    data-target="#navbarNav"
+                    data-toggle="collapse"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span
+                      className=""
+                    >
+                      <img
+                        alt=""
+                        className="menuIcon"
+                        src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426069/Authors%20Haven/icons8-menu.svg"
+                      />
+                    </span>
+                  </button>
+                  <div
+                    className="navbar-wrapper"
+                  >
+                    <ul
+                      className="navbar-element"
+                    >
+                      <Link
+                        className="nav-link header-dark"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="nav-link header-dark"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Explore
+                        </a>
+                      </Link>
+                      <Link
+                        className="nav-link header-dark"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="nav-link header-dark"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          About Us
+                        </a>
+                      </Link>
+                      <Link
+                        className="nav-link header-dark"
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          className="nav-link header-dark"
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          Contact
+                        </a>
+                      </Link>
+                    </ul>
+                    <ul
+                      className="navbar-element"
+                    >
+                      <Link
+                        className="nav-item nav-link header-dark"
+                        replace={false}
+                        to="/auth/signin"
+                      >
+                        <a
+                          className="nav-item nav-link header-dark"
+                          href="/auth/signin"
+                          onClick={[Function]}
+                        >
+                          Sign In
+                        </a>
+                      </Link>
+                      <p
+                        className="link-border header-dark"
+                      >
+                        |
+                      </p>
+                      <Link
+                        className=" nav-item nav-link header-dark"
+                        replace={false}
+                        to="/auth/signup"
+                      >
+                        <a
+                          className=" nav-item nav-link header-dark"
+                          href="/auth/signup"
+                          onClick={[Function]}
+                        >
+                          Sign Up
+                        </a>
+                      </Link>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </header>
+          </Header>
+        </Connect(Header)>
+      </Router>
+    </MemoryRouter>
+  </Provider>
+</_default>
+`;

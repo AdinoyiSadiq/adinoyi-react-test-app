@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App UI render features container should render as expected 1`] = `
+<BrowserRouter>
+  <div>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      path="/auth"
+    />
+    <Route
+      component={[Function]}
+      path="/articles"
+    />
+    <Route
+      component={[Function]}
+      path="/user"
+    />
+    <Route
+      component={[Function]}
+      path="/forgotpassword"
+    />
+    <Route
+      component={[Function]}
+      path="/resetpassword"
+    />
+  </div>
+</BrowserRouter>
+`;

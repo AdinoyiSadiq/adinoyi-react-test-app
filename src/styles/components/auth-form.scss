@@ -1,0 +1,270 @@
+ body{
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.auth-form{
+    width: 49%;
+    padding-left: 8%;
+    background-color: #f8f8f8;
+}
+
+.auth-form .auth-field{
+    background-color: #f8f8f8;
+    border:0px;
+    border-bottom: 3px solid #000;
+    width: 84%;
+    height: 45px;
+    font-size: 16px;
+    font-style: bold;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.auth-form .auth-button{
+    font-family: Antic;
+    background-color: #25b47e;
+    color: #fff;
+    border: 1px solid #25b47e;
+    width: 84%;
+    height: 60px;
+    font-size: 18px;
+    font-style: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.auth-form .auth-button:hover{
+    background-color: #fff;
+    color: #25b47e;
+    border: 1px solid #25b47e;
+}
+
+.auth-form .auth-buttons{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.auth-form .auth-buttons .both-links{
+    width: 42%;
+}
+
+.auth-form .auth-buttons .buttons{
+    font-family: Antic;
+    border:0px;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    font-style: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 1px #bfbfbf;
+    outline: none;
+}
+
+.auth-form .auth-buttons .sign-in:hover,
+.auth-form .auth-buttons .sign-up:hover {
+    background-color: #f8f8f8;
+    color: #25b47e;
+}
+
+.auth-form .auth-buttons .sign-in,
+.auth-form .auth-buttons .sign-up {
+    background-color: #fff;
+    color: #25b47e;
+}
+
+.auth-form .auth-buttons .active{
+    background-color: #25b47e;
+    color: #fff;
+}
+
+.auth-form .auth-buttons .active:hover{
+    background-color: #25b47e;
+    color: #fff;
+}
+
+
+
+ .auth-form .error-field{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+.auth-form .forgot-password {
+    text-align: right;
+    width: 84%;
+    color: #a6a2a2;
+    font-family: Anaheim;
+}
+
+ .auth-form .or{
+    text-align: center;
+    width: 80%;
+    margin-top: 15px;
+    color: #a6a2a2;
+    font-family: Rajdhani;
+}
+
+.auth-form .social-icons{
+     display: flex;
+     width: 54%;
+     margin-left: 15%; 
+}
+
+.auth-form .social-icons .social-link{
+    margin: auto; 
+    margin-top: 25px;
+}
+
+.auth-form .social-icons .social-link div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.auth-form .social-icons .facebook{
+    background-color: #3b5998;
+}
+
+.auth-form .social-icons .google{
+    background-color: #dd4b39;
+}
+
+.auth-form .social-icons .twitter{
+    background-color: #1da1f2;
+}
+
+.auth-form .social-icons .facebook:hover,
+.auth-form .social-icons .google:hover,
+.auth-form .social-icons .twitter:hover{
+    opacity: 0.9;
+}
+
+.auth-form .social-icons .facebook img{
+    width: 12px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 24px;    
+}
+
+.auth-form .social-icons .google img,
+.auth-form .social-icons .twitter img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+
+
+@media screen and (max-width:1024px){  
+    .auth-form{
+        padding-top: 30px;
+    }
+
+    .auth-form .social-icons{
+        margin-top: -15px; 
+   }
+
+   .auth-form .or{
+    margin-top: 5px;
+}
+
+.auth-form .social-icons .social-link{
+    margin-top: 20px;
+}
+}
+
+
+
+@media screen and (max-width:800px){  
+    .auth-form{
+        width: 100%;
+        padding-left: 10%;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .auth-form .or{
+        margin-top: 15px;
+    }
+    
+    .auth-form .social-icons .social-link{
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width:400px){  
+    .auth-form{
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .auth-form .auth-field{
+        width: 90%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .auth-form .auth-button{
+        width: 90%;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .auth-form .auth-buttons .both-links{
+        width: 45%;
+    }
+
+    .auth-form .auth-buttons .buttons{
+        height: 45px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .auth-form .or{
+        margin-top: 15px;
+    }
+
+    .auth-form .social-icons{
+        width: 80%;
+        margin-top: -20px;
+        margin-left: 5%; 
+   }
+
+   .auth-form .social-icons .social-link div{
+    width: 50px;
+    height: 50px;
+}
+
+.auth-form .social-icons .facebook img{
+    width: 8px;
+    height: 17px;
+    margin-top: 17px;
+    margin-left: 20px;    
+}
+
+.auth-form .social-icons .google img,
+.auth-form .social-icons .twitter img{
+    width: 17px;
+    height: 18px;
+    margin-top: 16px;
+    margin-left: 16px;  
+}
+
+}
+
+
+
+
+

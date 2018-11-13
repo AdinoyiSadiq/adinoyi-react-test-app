@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthFormToggle UI render features component should render as expected 1`] = `
+<div
+  className="auth-buttons"
+>
+  <Link
+    className="both-links"
+    replace={false}
+    to="/auth/signup"
+  >
+    <input
+      className="buttons sign-up null"
+      type="button"
+      value="SIGN UP"
+    />
+  </Link>
+  <Link
+    className="both-links"
+    replace={false}
+    to="/auth/signin"
+  >
+    <input
+      className="buttons sign-in active"
+      type="button"
+      value="SIGN IN"
+    />
+  </Link>
+</div>
+`;

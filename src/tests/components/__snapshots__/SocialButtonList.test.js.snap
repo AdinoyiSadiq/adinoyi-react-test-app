@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialButtonList UI render features container should render as expected 1`] = `
+<_default>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <SocialButtonList>
+      <div
+        className="social-icons"
+      >
+        <SocialButton
+          className="facebook"
+          image="facebook-image.png"
+          type="facebook"
+        >
+          <div
+            className="social-link"
+          >
+            <a
+              href="http://localhost:3000/api/auth/facebook"
+            >
+              <div
+                className="facebook"
+              >
+                <img
+                  alt=""
+                  src="facebook-image.png"
+                />
+              </div>
+            </a>
+          </div>
+        </SocialButton>
+        <SocialButton
+          className="google"
+          image="google-image.png"
+          type="google"
+        >
+          <div
+            className="social-link"
+          >
+            <a
+              href="http://localhost:3000/api/auth/google"
+            >
+              <div
+                className="google"
+              >
+                <img
+                  alt=""
+                  src="google-image.png"
+                />
+              </div>
+            </a>
+          </div>
+        </SocialButton>
+        <SocialButton
+          className="twitter"
+          image="twitter-image.png"
+          type="twitter"
+        >
+          <div
+            className="social-link"
+          >
+            <a
+              href="http://localhost:3000/api/auth/twitter"
+            >
+              <div
+                className="twitter"
+              >
+                <img
+                  alt=""
+                  src="twitter-image.png"
+                />
+              </div>
+            </a>
+          </div>
+        </SocialButton>
+      </div>
+    </SocialButtonList>
+  </Provider>
+</_default>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialAuth UI render features container should render as expected 1`] = `
+<_default>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <Connect(SocialAuth)
+      history={
+        Object {
+          "location": Object {
+            "search": Object {
+              "token": "token",
+              "userId": "userId",
+            },
+          },
+        }
+      }
+    >
+      <SocialAuth
+        history={
+          Object {
+            "location": Object {
+              "search": Object {
+                "token": "token",
+                "userId": "userId",
+              },
+            },
+          }
+        }
+        socialSignin={[Function]}
+      >
+        <div>
+          <LargeLoader>
+            <div
+              className="large-spinner-wrapper"
+            >
+              <img
+                alt=""
+                className="large-spinner"
+                src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541701878/large-spinner.gif"
+              />
+            </div>
+          </LargeLoader>
+        </div>
+      </SocialAuth>
+    </Connect(SocialAuth)>
+  </Provider>
+</_default>
+`;

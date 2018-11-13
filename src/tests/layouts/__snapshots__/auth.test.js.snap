@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth layout render features container should render as expected 1`] = `
+<div
+  className="auth-flex"
+>
+  <AuthImage />
+  <div
+    className="auth-form"
+  >
+    <AuthFormToggle />
+    <div
+      className="or"
+    >
+      Or
+    </div>
+    <SocialButtonList />
+  </div>
+</div>
+`;

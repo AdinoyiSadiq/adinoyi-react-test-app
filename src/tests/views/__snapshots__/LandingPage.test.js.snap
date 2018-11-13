@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page UI render features container should render as expected 1`] = `
+<_default>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <MemoryRouter
+      initialEntries={
+        Array [
+          Object {
+            "key": "testkey",
+          },
+        ]
+      }
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "testkey",
+                "pathname": "/",
+                "search": "",
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "testkey",
+              "pathname": "/",
+              "search": "",
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <LandingPage>
+          <div>
+            <LandingPageLayout>
+              <div>
+                <Connect(Hero)>
+                  <Hero
+                    auth={null}
+                    dispatch={[Function]}
+                  >
+                    <section
+                      className="hero-section"
+                    >
+                      <div
+                        className="hero-section-overlay"
+                      >
+                        <Connect(Header)
+                          parentComponent="landingpage"
+                        >
+                          <Header
+                            auth={null}
+                            parentComponent="landingpage"
+                            signout={[Function]}
+                          >
+                            <header>
+                              <nav
+                                className="navbar"
+                              >
+                                <Link
+                                  className="navbar-title navbar-brand"
+                                  replace={false}
+                                  to="/"
+                                >
+                                  <a
+                                    className="navbar-title navbar-brand"
+                                    href="/"
+                                    onClick={[Function]}
+                                  >
+                                    <h3
+                                      className="header-white"
+                                    >
+                                      Authors Haven
+                                    </h3>
+                                  </a>
+                                </Link>
+                                <div
+                                  className="navbar-main-wrapper"
+                                >
+                                  <button
+                                    className="navbar-toggler"
+                                    data-target="#navbarNav"
+                                    data-toggle="collapse"
+                                    onClick={[Function]}
+                                    type="button"
+                                  >
+                                    <span
+                                      className=""
+                                    >
+                                      <img
+                                        alt=""
+                                        className="menuIcon"
+                                        src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426069/Authors%20Haven/icons8-menu.svg"
+                                      />
+                                    </span>
+                                  </button>
+                                  <div
+                                    className="navbar-wrapper"
+                                  >
+                                    <ul
+                                      className="navbar-element"
+                                    >
+                                      <Link
+                                        className="nav-link"
+                                        replace={false}
+                                        to="/"
+                                      >
+                                        <a
+                                          className="nav-link"
+                                          href="/"
+                                          onClick={[Function]}
+                                        >
+                                          Explore
+                                        </a>
+                                      </Link>
+                                      <Link
+                                        className="nav-link"
+                                        replace={false}
+                                        to="/"
+                                      >
+                                        <a
+                                          className="nav-link"
+                                          href="/"
+                                          onClick={[Function]}
+                                        >
+                                          About Us
+                                        </a>
+                                      </Link>
+                                      <Link
+                                        className="nav-link"
+                                        replace={false}
+                                        to="/"
+                                      >
+                                        <a
+                                          className="nav-link"
+                                          href="/"
+                                          onClick={[Function]}
+                                        >
+                                          Contact
+                                        </a>
+                                      </Link>
+                                    </ul>
+                                    <ul
+                                      className="navbar-element"
+                                    >
+                                      <Link
+                                        className="nav-item nav-link"
+                                        replace={false}
+                                        to="/auth/signin"
+                                      >
+                                        <a
+                                          className="nav-item nav-link"
+                                          href="/auth/signin"
+                                          onClick={[Function]}
+                                        >
+                                          Sign In
+                                        </a>
+                                      </Link>
+                                      <p
+                                        className="link-border"
+                                      >
+                                        |
+                                      </p>
+                                      <Link
+                                        className=" nav-item nav-link"
+                                        replace={false}
+                                        to="/auth/signup"
+                                      >
+                                        <a
+                                          className=" nav-item nav-link"
+                                          href="/auth/signup"
+                                          onClick={[Function]}
+                                        >
+                                          Sign Up
+                                        </a>
+                                      </Link>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </nav>
+                            </header>
+                          </Header>
+                        </Connect(Header)>
+                        <h2>
+                          Write it out beautifully
+                        </h2>
+                        <div
+                          className="hero-section-description"
+                        >
+                          <p>
+                            Or type it, its just as fine. Here, we help get your articles across
+                          </p>
+                          <p>
+                            to a pool of eager readers. We know there are no limits to your
+                          </p>
+                          <p>
+                            imagination. We can’t wait to meet you.
+                          </p>
+                        </div>
+                        <div
+                          className="hero-section-buttons"
+                        >
+                          <Link
+                            replace={false}
+                            to="/auth/signin"
+                          >
+                            <a
+                              href="/auth/signin"
+                              onClick={[Function]}
+                            >
+                              <Button
+                                className="btn hero-section-greenbutton"
+                                title="CREATE ARTICLES"
+                                type="button"
+                              >
+                                <button
+                                  className="btn hero-section-greenbutton"
+                                  type="button"
+                                >
+                                  CREATE ARTICLES
+                                </button>
+                              </Button>
+                            </a>
+                          </Link>
+                          <Link
+                            replace={false}
+                            to="/auth/signin"
+                          >
+                            <a
+                              href="/auth/signin"
+                              onClick={[Function]}
+                            >
+                              <Button
+                                className="btn hero-section-whitebutton"
+                                title="READ ARTICLES"
+                                type="button"
+                              >
+                                <button
+                                  className="btn hero-section-whitebutton"
+                                  type="button"
+                                >
+                                  READ ARTICLES
+                                </button>
+                              </Button>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                      <div
+                        className="hero-body-vector-white"
+                      />
+                      <div>
+                        <div
+                          className="big-hero-card row"
+                        >
+                          <div
+                            className="hero-card-details col-sm-4"
+                          >
+                            <h6>
+                              Why a willing kid
+                            </h6>
+                            <h6>
+                              would win an adult
+                            </h6>
+                            <h6>
+                              in a fist fight.
+                            </h6>
+                            <p>
+                              This is my unique story 
+                              <br />
+                               of how a savage kid from
+                              <br />
+                               the west devotedly kicked
+                              <br />
+                               a white glass.....
+                            </p>
+                            <div
+                              className="row hero-card-author"
+                            >
+                              <img
+                                alt="Author Profile"
+                                src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426069/Authors%20Haven/john.jpg"
+                              />
+                              <p
+                                className="col-sm-8"
+                              >
+                                John Adewale
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            className="hero-card-image col-sm-6"
+                          />
+                        </div>
+                      </div>
+                    </section>
+                  </Hero>
+                </Connect(Hero)>
+                <LandingPageBody>
+                  <section
+                    className="hero-body-background"
+                  >
+                    <div
+                      className="hero-body"
+                    >
+                      <div
+                        className="hero-body-details"
+                      >
+                        <div
+                          className="hero-body-title row"
+                        >
+                          <h2
+                            className="col-lg-9"
+                          >
+                            THE COMPLETE DIGITAL TOOL FOR AUTHORS WILLING TO SHARE
+                          </h2>
+                          <div
+                            className="hero-bookImage-wrapper "
+                          >
+                            <img
+                              alt=""
+                              src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426068/Authors%20Haven/icons8-literature-48.png"
+                            />
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum anothere olor sit amet consectetur, adipisicing elit. Cupiditate just tosint fugiat nesciunt doloribus veniam, dolor ratione sunt marecusandae, molestiae fugit reicivero labore quibusdam longLorem ipsum dolor sit amet cons pisici elit. Cupiditatesint is the fugiat nesciunt doloribus veniam, dolor ratione sunt reclorem usandae, molestiae fugit reiciendis vero labe quibusdam world odit sequi aperiam sit ipsum ipsa! odit sequi ap sit ipsum ipsa!
+                        </p>
+                        <hr />
+                        <Link
+                          className="hero-signup"
+                          replace={false}
+                          to="/auth/signup"
+                        >
+                          <a
+                            className="hero-signup"
+                            href="/auth/signup"
+                            onClick={[Function]}
+                          >
+                            <p>
+                              Writer? We can’t wait to meet you →
+                            </p>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                    <div
+                      className="hero-body-vector-blue"
+                    />
+                  </section>
+                </LandingPageBody>
+                <ExploreSection>
+                  <section
+                    className="hero-lowerbody"
+                  >
+                    <div
+                      className="hero-lowerbody-details"
+                    >
+                      <div
+                        className="hero-lowerbody-title"
+                      >
+                        <div
+                          className="hero-bookImage-wrapper "
+                        >
+                          <img
+                            alt=""
+                            src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426068/Authors%20Haven/icons8-heart-outline-48.png"
+                          />
+                        </div>
+                        <h2>
+                          HERE’S OUR BEST PICK FOR AUGUST
+                        </h2>
+                      </div>
+                      <p>
+                        We have buillt a community of talentrd authors who love to write lorem ips Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditatelit. Cupiditate
+                      </p>
+                    </div>
+                    <div
+                      className="hero-lowerbody-articles"
+                    >
+                      <Connect(Card)>
+                        <Card
+                          getArticles={[Function]}
+                        >
+                          <div>
+                            <Loading>
+                              <div
+                                className="loading-icon"
+                              >
+                                <img
+                                  alt=""
+                                  src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426069/Authors%20Haven/Spinner-1s.gif"
+                                />
+                              </div>
+                            </Loading>
+                            <div
+                              className="hero-moreArticles row"
+                              onClick={[Function]}
+                            >
+                              <p>
+                                More Articles
+                              </p>
+                              <img
+                                alt=""
+                                src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541426068/Authors%20Haven/icons8-expand-arrow-24.png"
+                              />
+                            </div>
+                          </div>
+                        </Card>
+                      </Connect(Card)>
+                    </div>
+                  </section>
+                </ExploreSection>
+                <Footer>
+                  <footer>
+                    <div
+                      className="footer-wrapper"
+                    >
+                      <Link
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <p>
+                            About
+                          </p>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <p>
+                            Contact
+                          </p>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <p>
+                            Terms
+                          </p>
+                        </a>
+                      </Link>
+                      <Link
+                        replace={false}
+                        to="/"
+                      >
+                        <a
+                          href="/"
+                          onClick={[Function]}
+                        >
+                          <p>
+                            Privacy
+                          </p>
+                        </a>
+                      </Link>
+                    </div>
+                    <div
+                      className="copyright"
+                    >
+                      <p>
+                        ©Goodfellas
+                      </p>
+                    </div>
+                  </footer>
+                </Footer>
+              </div>
+            </LandingPageLayout>
+          </div>
+        </LandingPage>
+      </Router>
+    </MemoryRouter>
+  </Provider>
+</_default>
+`;

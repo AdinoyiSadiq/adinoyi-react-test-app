@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LargeLoader UI render features component should render as expected 1`] = `
+<div
+  className="large-spinner-wrapper"
+>
+  <img
+    alt=""
+    className="large-spinner"
+    src="https://res.cloudinary.com/drmmqcxkc/image/upload/v1541701878/large-spinner.gif"
+  />
+</div>
+`;

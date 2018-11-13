@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialButton UI render features component should render as expected 1`] = `
+<div
+  className="social-link"
+>
+  <a
+    href="http://localhost:3000/api/auth/undefined"
+  >
+    <div>
+      <img
+        alt=""
+      />
+    </div>
+  </a>
+</div>
+`;
